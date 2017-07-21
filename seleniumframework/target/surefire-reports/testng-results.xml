@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group of group Suite" duration-ms="15139" started-at="2017-07-21T19:54:44Z" finished-at="2017-07-21T19:54:59Z">
+    <groups>
+    </groups>
+    <test name="Group of group Test" duration-ms="15139" started-at="2017-07-21T19:54:44Z" finished-at="2017-07-21T19:54:59Z">
+      <class name="com.qa.utils.DifferentDrame">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.utils.DifferentDrame@137cf78]" name="setup" is-config="true" duration-ms="6124" started-at="2017-07-21T15:54:44Z" finished-at="2017-07-21T15:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.utils.SameFrame@1b6d4ae]" name="setup" is-config="true" duration-ms="7858" started-at="2017-07-21T15:54:50Z" finished-at="2017-07-21T15:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dragAndDropTestCaseWithinFrame()[pri:0, instance:com.qa.utils.DifferentDrame@137cf78]" name="dragAndDropTestCaseWithinFrame" duration-ms="643" started-at="2017-07-21T15:54:58Z" finished-at="2017-07-21T15:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTestCaseWithinFrame -->
+      </class> <!-- com.qa.utils.DifferentDrame -->
+      <class name="com.qa.utils.SameFrame">
+        <test-method status="PASS" signature="dragAndDropTestCaseWithinFrame()[pri:0, instance:com.qa.utils.SameFrame@1b6d4ae]" name="dragAndDropTestCaseWithinFrame" duration-ms="479" started-at="2017-07-21T15:54:58Z" finished-at="2017-07-21T15:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTestCaseWithinFrame -->
+      </class> <!-- com.qa.utils.SameFrame -->
+    </test> <!-- Group of group Test -->
+  </suite> <!-- Group of group Suite -->
+</testng-results>
