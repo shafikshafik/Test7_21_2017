@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
 public class DifferentDrame {
 
 	WebDriver driver;
-
+	// Shafik
 	@BeforeTest
 	public void setup() {
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
